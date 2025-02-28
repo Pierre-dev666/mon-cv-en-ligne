@@ -167,16 +167,16 @@ a {
 
 }
 
-#skills-bloc {
+.skills-bloc {
     width: 100%;
 }
 
-#skills-2-bloc {
+.skills-2-bloc {
     width: 100%;
     border-left: 9px solid rgba(23, 171, 179, 0);
 }
 
-#skills-2-bloc:hover {
+.skills-2-bloc:hover {
     border-left: 4px solid rgb(23, 171, 179);
     background-color: rgb(227, 227, 227);
     padding-left: 5px;
@@ -207,13 +207,13 @@ a {
 .part-4 {
     display: inline-flex;
     justify-content: end;
-    width: 49%;
+    width: 38%;
     color: rgb(23, 171, 179);
 
 }
 .part-5 {
     display: inline-flex;
-    width: 49%;
+    width: 61%;
     color: rgb(51, 51, 51);
     font-weight: 800;
     margin-bottom: 0px;
@@ -249,7 +249,7 @@ a {
 }
 
 #profil {
-    text-indent: 5%;
+    text-indent: 3%;
     text-align: justify;
     color: rgb(51, 51, 51);
 }
