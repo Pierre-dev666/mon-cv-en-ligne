@@ -45,7 +45,7 @@ header {
 
 #with-flex_header {
 
-    height: 200px;
+    height: 210px;
     width: 1050px;
     display: flex;
     flex-direction: row;
@@ -154,6 +154,8 @@ main {
 
 .skills-bloc {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .skills-2-bloc {
@@ -168,16 +170,12 @@ main {
 }
 
 .part-1 {
-    display: inline-flex;
-    width: 49%;
     color: rgb(51, 51, 51);
     font-weight: 800;
 }
 
 .part-2 {
-    display: inline-flex;
-    justify-content: end;
-    width: 49%;
+    width: 25%;
     color: rgb(23, 171, 179);
     font-weight: 800;
 }
@@ -251,11 +249,12 @@ li::marker {
 
 footer {
     background-color: rgb(23, 171, 179);
+    padding: 5px;
 }
 
 #with-flex_footer {
 
-    height: 60px;
+    height: 65px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -274,6 +273,6 @@ footer {
 
 #date-update {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     color: rgb(255, 255, 255);
 }
