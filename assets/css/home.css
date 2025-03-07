@@ -185,9 +185,6 @@ main {
 }
 
 .part-3 {
-    display: inline-flex;
-    justify-content: end;
-    width: 49%;
     color: rgb(51, 51, 51);
 }
 
