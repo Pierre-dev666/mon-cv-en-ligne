@@ -5,6 +5,10 @@
 
 }
 
+* {
+    box-sizing: border-box;
+}
+
 #page_centered {
     height: 100%;
     width: 1160px;
